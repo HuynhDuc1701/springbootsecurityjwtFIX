@@ -1,18 +1,15 @@
 package com.example.springbootsecurityjwt.Controller;
 
-import Model.AuthenticationRequest;
-import Model.AuthenticationResponse;
+import com.example.springbootsecurityjwt.Model.AuthenticationRequest;
+import com.example.springbootsecurityjwt.Model.AuthenticationResponse;
 import com.example.springbootsecurityjwt.Service.MyUserDetailsService;
 import com.example.springbootsecurityjwt.jwtUtil;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

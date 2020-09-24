@@ -1,4 +1,4 @@
-package Model;
+package com.example.springbootsecurityjwt.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
